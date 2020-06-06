@@ -1,0 +1,27 @@
+#To Solve Quadratic Equation
+#Equation= ax^2 + bx +c
+
+import cmath                                                #To perform complex square roots
+
+a=float(input("Enter Coefficent of x^2 "))
+b=float(input("Enter Coefficent of x "))
+c=float(input("Enter Constant "))
+
+D=(b**2)-(4*a*c)                                              #Calculating Disscriminant
+
+print("Discriminant is " +str(D))
+
+x1 = (-b-cmath.sqrt(D))/(2*a)
+x2 = (-b+cmath.sqrt(D))/(2*a)
+
+print("The roots are "+str(x1) +str(x2))
+
+
+
+
+#OUTPUT
+Enter Coefficent of x^2 6
+Enter Coefficent of x 11
+Enter Constant -35
+Discriminant is 961.0
+The roots are (-3.5+0j)(1.6666666666666667+0j)
