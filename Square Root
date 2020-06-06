@@ -1,0 +1,11 @@
+#Finding Square Root
+
+a=float(input("Enter a number "))
+p=a**0.5
+
+print("The square root of number is "+str(p))
+
+
+#OUTPUT
+Enter a number 4
+The square root of number is 2.0
