@@ -1,0 +1,13 @@
+#Kilometres to miles
+
+Dist_K=float(input("Enter distance in kilometres "))
+
+Dist_M= 0.62137119*Dist_K
+
+print("The distance in miles is: " +str(Dist_M))
+
+-------------------------------------------------
+#OUTPUT
+
+Enter distance in kilometres 14
+The distance in miles is: 8.69919666
