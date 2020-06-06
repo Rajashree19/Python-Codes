@@ -1,0 +1,21 @@
+#Calculate Area of a triangle
+#Assuming triangle to be scalene
+
+a=float(input("First side "))
+b=float(input("Second side "))
+c=float(input("Third side "))
+
+s=(a+b+c)/2                                     #Semi perimeter of triangle
+
+x=s*(s-a)*(s-b)*(s-c)                           #Euclid's Method 
+
+area=x**0.5
+
+print("The area of triangle is " +str(area))
+
+
+#OUTPUT
+First side 5
+Second side 6
+Third side 7
+The area of triangle is 14.696938456699069
