@@ -1,0 +1,42 @@
+#Swapping 2 variables without third variable
+
+a=int(input("Number a = "))
+b=int(input("Number b = "))
+print("a= " +str(a))
+print("b= " +str(b))
+
+a=a+b
+b=a-b
+a=a-b
+print("Changed Values are: ")
+print("a= " +str(a))
+print("b= " +str(b))
+
+
+--------------------------------------------------------------------
+
+#Swapping 2 variables with third variable
+
+a=int(input("Number a = "))
+b=int(input("Number b = "))
+print("a= " +str(a))
+print("b= " +str(b))
+
+c=a
+a=b
+b=c
+
+print("Changed Values are: ")
+print("a= " +str(a))
+print("b= " +str(b))
+
+----------------------------------------------------------------------
+
+#OUTPUT
+Number a = 5
+Number b = 6
+a= 5
+b= 6
+Changed Values are: 
+a= 6
+b= 5
